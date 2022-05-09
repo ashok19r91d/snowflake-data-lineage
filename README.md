@@ -1,6 +1,6 @@
 # Snowflake Data Lineage
 
-Snowflake dosen't provide any out of box solutions to verify or check data lineage, and this project establish Data Lineage between Snowflake Database Objects using Query History.
+Snowflake dosen't provide any out of box solutions to verify or check data lineage, and this project establish Data Lineage between Snowflake Database Objects. This project uses Query History Metadata extended by Snowflake in `SNOWFLAKE.ACCOUNT_USAGE_QUERY_HISTORY` table to build Data Lineage Diagram.
 
 > For example:
 >
